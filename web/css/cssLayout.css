@@ -1,0 +1,83 @@
+#footer
+{
+    background-color: transparent;
+    width:100%;
+    height:50px;
+    position:fixed;
+    float:left;
+    bottom:0px;
+}
+.customerbottom
+{
+    background-color: transparent;
+    width:100%;
+    height:50px;
+    position:fixed;
+    float:left;
+    bottom:0px;
+}
+
+#top {
+    position: relative;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+#bottom {
+    position: relative;
+    background-color: activeborder;
+    margin: 0px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    background-color: transparent;
+
+    width: 300px;
+}
+
+#right {
+    float: right;
+    background-color:transparent;
+
+    width: 300px;
+}
+
+.center_content {
+    position: relative;
+    background-color:  transparent;
+    padding: 1px;
+}
+
+.left_content {
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 400px;
+}
+
+.right_content {
+    background-color: transparent;
+    padding: 5px;
+    margin: 0px 10px 0px 350px;
+}
+
+#top a:link, #top a:visited {
+    color: white;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+    color: black;
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+.form {
+    position:relative;
+    size: 400px;
+    background-color:  activecaption;
+}
+

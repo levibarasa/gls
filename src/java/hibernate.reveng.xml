@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+    <schema-selection match-schema="GLS"/>
+   <table-filter match-name="LA_TRAN_DETAIL_TABLE"/>
+    <table-filter match-name="SERVICE_OUTLET_TABLE"/>
+    <table-filter match-name="ROLE_CRNCY_LIMIT_TABLE_MOD"/>
+    <table-filter match-name="LA_REP_SHDL_TABLE"/>
+    <table-filter match-name="SERVICE_OUTLET_TABLE_MOD"/>
+    <table-filter match-name="ROLE_PROFILE_TABLE_MOD"/>
+    <table-filter match-name="ROLE_PROFILE_TABLE"/>
+    <table-filter match-name="REGIONS"/>
+    <table-filter match-name="LA_DMD_TABLE"/>
+    <table-filter match-name="RES_MAPPING"/>
+    <table-filter match-name="SOL_GROUP_CONTROL_TABLE"/>
+    <table-filter match-name="GROUPS_TABLE_MOD"/>
+    <table-filter match-name="GENERAL_ACCT_MAST_TABLE"/>
+    <table-filter match-name="GENERAL_ACCT_MAST_TABLE_MOD"/>
+    <table-filter match-name="COUNTRY_CODES"/>
+    <table-filter match-name="USER_CREDS_TBL_MOD"/>
+    <table-filter match-name="CURRENCY_CODES"/>
+    <table-filter match-name="RES_MAPPING_MOD"/>
+    <table-filter match-name="SUB_GRP_TABLE_MOD"/>
+    <table-filter match-name="SUB_GRP_TABLE"/>
+    <table-filter match-name="GROUPS_TABLE"/>
+    <table-filter match-name="GEN_SCHM_PARM_TABLE_MOD"/>
+    <table-filter match-name="CATEGORIES"/>
+    <table-filter match-name="LOCATIONS"/>
+    <table-filter match-name="SOL_GROUP_CONTROL_TABLE_MOD"/>
+    <table-filter match-name="BASE_INT_VER_SLAB_TBL_MOD"/>
+    <table-filter match-name="REGIONS_TABLE"/>
+    <table-filter match-name="GEN_SCHM_PARM_TABLE"/>
+    <table-filter match-name="BASE_INT_VER_SLAB_TBL"/>
+    <table-filter match-name="LOGGED_IN_USER"/>
+    <table-filter match-name="USER_CREDS_TBL"/>
+    <table-filter match-name="LA_AMORT_SHDL_TABLE"/>
+    <table-filter match-name="ROLE_CRNCY_LIMIT_TABLE"/>
+    <table-filter match-name="COUNTRIES"/>
+    <table-filter match-name="REGIONS_TABLE_MOD"/> 
+    <table-filter match-name="RESOURCES"/>
+</hibernate-reverse-engineering>

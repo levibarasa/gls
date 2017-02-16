@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@192.168.1.80:1521:proddb</property>
+    <property name="hibernate.connection.username">GLS</property>
+    <property name="hibernate.connection.password">gls</property>
+    <property name="show_sql">true</property>
+    <!-- <property name="hibernate.hbm2ddl.auto">create-drop</property> -->
+    <mapping class="com.orig.gls.jpa.SubGrpTableMod"/>
+    <mapping class="com.orig.gls.jpa.CurrencyCodes"/>
+    <mapping class="com.orig.gls.jpa.CountryCodes"/>
+    <mapping class="com.orig.gls.jpa.RoleCrncyLimitTableMod"/>
+    <mapping class="com.orig.gls.jpa.SolGroupControlTable"/>
+    <mapping class="com.orig.gls.jpa.ResMappingMod"/>
+    <mapping class="com.orig.gls.jpa.GeneralAcctMastTableMod"/>
+    <mapping class="com.orig.gls.jpa.ServiceOutletTableMod"/>
+    <mapping class="com.orig.gls.jpa.GeneralAcctMastTable"/>
+    <mapping class="com.orig.gls.jpa.SubGrpTable"/>
+    <mapping class="com.orig.gls.jpa.RoleProfileTableMod"/>
+    <mapping class="com.orig.gls.jpa.LoggedInUser"/>
+    <mapping class="com.orig.gls.jpa.LaTranDetailTable"/>
+    <mapping class="com.orig.gls.jpa.UserCredsTblMod"/>
+    <mapping class="com.orig.gls.jpa.UserCredsTbl"/>
+    <mapping class="com.orig.gls.jpa.LaRepShdlTable"/>
+    <mapping class="com.orig.gls.jpa.ResMapping"/>
+    <mapping class="com.orig.gls.jpa.SolGroupControlTableMod"/>
+    <mapping class="com.orig.gls.jpa.Categories"/>
+    <mapping class="com.orig.gls.jpa.RoleProfileTable"/>
+    <mapping class="com.orig.gls.jpa.RegionsTable"/>
+    <mapping class="com.orig.gls.jpa.GroupsTableMod"/>
+    <mapping class="com.orig.gls.jpa.ServiceOutletTable"/>
+    <mapping class="com.orig.gls.jpa.GroupsTable"/>
+    <mapping class="com.orig.gls.jpa.RoleCrncyLimitTable"/>
+    <mapping class="com.orig.gls.jpa.RegionsTableMod"/>
+    <mapping class="com.orig.gls.jpa.SubGrpTableMod"/>
+    <mapping class="com.orig.gls.jpa.CurrencyCodes"/>
+    <mapping class="com.orig.gls.jpa.CountryCodes"/>
+    <mapping class="com.orig.gls.jpa.RoleCrncyLimitTableMod"/>
+    <mapping class="com.orig.gls.jpa.SolGroupControlTable"/>
+    <mapping class="com.orig.gls.jpa.ResMappingMod"/>
+    <mapping class="com.orig.gls.jpa.GeneralAcctMastTableMod"/>
+    <mapping class="com.orig.gls.jpa.ServiceOutletTableMod"/>
+    <mapping class="com.orig.gls.jpa.GeneralAcctMastTable"/>
+    <mapping class="com.orig.gls.jpa.SubGrpTable"/>
+    <mapping class="com.orig.gls.jpa.RoleProfileTableMod"/>
+    <mapping class="com.orig.gls.jpa.LoggedInUser"/>
+    <mapping class="com.orig.gls.jpa.LaTranDetailTable"/>
+    <mapping class="com.orig.gls.jpa.UserCredsTblMod"/>
+    <mapping class="com.orig.gls.jpa.UserCredsTbl"/>
+    <mapping class="com.orig.gls.jpa.LaRepShdlTable"/>
+    <mapping class="com.orig.gls.jpa.ResMapping"/>
+    <mapping class="com.orig.gls.jpa.SolGroupControlTableMod"/>
+    <mapping class="com.orig.gls.jpa.Categories"/>
+    <mapping class="com.orig.gls.jpa.RoleProfileTable"/>
+    <mapping class="com.orig.gls.jpa.Resources"/>
+    <mapping class="com.orig.gls.jpa.RegionsTable"/>
+    <mapping class="com.orig.gls.jpa.GroupsTableMod"/>
+    <mapping class="com.orig.gls.jpa.ServiceOutletTable"/>
+    <mapping class="com.orig.gls.jpa.GroupsTable"/>
+    <mapping class="com.orig.gls.jpa.RoleCrncyLimitTable"/>
+    <mapping class="com.orig.gls.jpa.RegionsTableMod"/>
+  </session-factory>
+</hibernate-configuration>
